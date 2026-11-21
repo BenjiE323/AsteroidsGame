@@ -2,8 +2,8 @@ class Star extends Floater
 {
   private int myX, myY;
   public Star() {
-    myX = (int)(Math.random()*1000);
-    myY = (int)(Math.random()*1000);
+    myX = (int)(Math.random()*1500);
+    myY = (int)(Math.random()*800);
   }
   
    public void show() {
