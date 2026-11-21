@@ -120,7 +120,7 @@ bob.move();
   fill(0);
   textSize(20);
   text("Your Score   = ", 680, 52);
-  text(Score, 805, 52);
+  text(Score, 810, 52);
   
 }
 
