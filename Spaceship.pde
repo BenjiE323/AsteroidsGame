@@ -26,6 +26,10 @@ public void setXposition(double a) {
 public void setYposition(double b) {
   myCenterY = b;
 }
+
+public double getXposition() { return myCenterX; }
+public double getYposition() { return myCenterY; }
+
 public void keyPressed() {
   if ( key == 'h' ) {
     bob.setXspeed(0);
